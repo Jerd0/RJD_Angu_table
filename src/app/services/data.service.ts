@@ -31,7 +31,7 @@ export class DataService {
       });
   }
 
-  addUser(kanbanItem: KanbanItem): void {
+  addUser(kanbanItem: Data): void {
     this.httpClient.post(this.API_URL, kanbanItem).subscribe(data => {
         this.dialogData = kanbanItem;
       },
@@ -40,7 +40,7 @@ export class DataService {
          Пользователь не добавлен`)  });
   }
 
-  updateUser(kanbanItem: KanbanItem): void {
+  updateUser(kanbanItem: Data): void {
     this.httpClient.put(this.API_URL + kanbanItem.id, kanbanItem).subscribe(data => {
         this.dialogData = kanbanItem;
       },
