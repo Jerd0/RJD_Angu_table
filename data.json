@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 9,
+      "name": "Reinhold Ewald",
+      "mission": "Sojus TM-25 / Sojus TM-24",
+      "days": 19,
+      "hobbi": "Летать",
+      "username": "Фронтендер"
+    },
+    {
+      "id": 10,
+      "name": "Gerhard Thiele",
+      "mission": "STS-99",
+      "days": 11,
+      "hobbi": "пить",
+      "username": "пивун"
+    },
+    {
+      "id": "1",
+      "name": "Вячеслав",
+      "mission": "Попасть в Ржд",
+      "days": "365",
+      "hobbi": "Front-end",
+      "username": "Jerdo"
+    }
+  ]
+}
